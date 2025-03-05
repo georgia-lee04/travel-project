@@ -20,6 +20,11 @@ body {
 .img-responsive {
   width: 100%;
   display: block;
+  transition: all 200ms ease-in-out;
+}
+
+.gallery-img:hover {
+  transform: scale(1.1);
 }
 
 .grid-2-columns {
@@ -32,6 +37,10 @@ body {
 
 .grid-3-columns-with-first-narrow {
   grid-template-columns: 1fr 2fr 2fr;
+}
+
+.grid-margin-top {
+  margin-top: 25px;
 }
 
 .embed {
@@ -154,14 +163,6 @@ main h4 {
   line-height: 1;
   color: #272044;
   margin: 0;
-}
-
-main h5 {
-  font-weight: 700;
-  font-size: 13px;
-  line-height: 1;
-  margin: 0;
-  color: #272044;
 }
 
 main p {
